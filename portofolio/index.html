@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abunk Art — Portofolio Profesional</title>
+  <meta name="description" content="Portofolio Abunk Art — UI/UX Designer & Frontend Developer" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="header" role="banner">
+  <div class="wrap">
+    <a href="#home" class="brand" aria-label="Abunk Art — Beranda">
+      <svg width="36" height="36" viewBox="0 0 24 24" aria-hidden="true">
+        <defs><linearGradient id="lg" x1="0" x2="1"><stop offset="0" stop-color="#0ea5a4" /><stop offset="1" stop-color="#7c3aed" /></linearGradient></defs>
+        <rect width="24" height="24" rx="5" fill="url(#lg)"></rect>
+      </svg>
+      <span class="brand-title">Abunk<span class="brand-accent">Art</span></span>
+    </a>
+    <nav class="nav" role="navigation" aria-label="Utama">
+      <a href="#home" class="nav-link">Beranda</a>
+      <a href="#about" class="nav-link">Tentang</a>
+      <a href="#work" class="nav-link">Karya</a>
+      <a href="#contact" class="nav-link">Kontak</a>
+    </nav>
+    <button class="nav-burger" aria-label="Buka menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<main id="home" class="hero" role="main">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="wrap hero-grid">
+    <section class="hero-left">
+      <p class="kicker">UI/UX • Frontend • Motion</p>
+      <h1 class="title">
+        <span class="title-line">Saya Abunk,</span>
+        <span class="title-type">menciptakan pengalaman digital yang <span class="txt-typed" data-words='["memikat.","cepat.","berkonversi."]'></span></span>
+      </h1>
+      <p class="subtitle">Desain pixel-perfect, animasi halus, dan implementasi frontend yang teroptimasi untuk performa & SEO.</p>
+      <div class="hero-ctas">
+        <a href="#work" class="btn btn-primary">Lihat Karya</a>
+        <a href="#contact" class="btn btn-outline">Minta Penawaran</a>
+      </div>
+      <ul class="metrics" aria-label="Statistik">
+        <li><strong>10+</strong><span>Proyek</span></li>
+        <li><strong>5x</strong><span>Peningkatan</span></li>
+        <li><strong>99%</strong><span>Kepuasan Klien</span></li>
+      </ul>
+    </section>
+    <aside class="hero-right" aria-hidden="false">
+      <div class="profile-card" data-tilt>
+        <img src="assets/profile.jpg" alt="Foto Abunk" class="profile-img" loading="lazy" />
+        <div class="profile-body">
+          <h3>Abunk Art</h3>
+          <p class="muted">UI/UX Designer & Frontend Dev</p>
+          <div class="skill-tags" aria-label="Keahlian">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Motion</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<section id="about" class="section">
+  <div class="wrap grid about-grid">
+    <div class="about-text reveal">
+      <h2>Tentang Saya</h2>
+      <p>Saya menggabungkan estetika visual dan pemikiran product-minded untuk membangun antarmuka yang indah dan efektif. Kerja saya mencakup desain high-fidelity, prototyping interaktif, dan pengembangan frontend yang scalable.</p>
+      <ul class="about-list">
+        <li><strong>Design sprints</strong> — riset & prototyping</li>
+        <li><strong>Frontend</strong> — performa diutamakan</li>
+        <li><strong>Motion</strong> — animasi mikro & UI dinamis</li>
+      </ul>
+      <a href="#contact" class="btn btn-primary mt">Mulai Kolaborasi</a>
+    </div>
+    <div class="about-cards">
+      <article class="feat card-tilt" data-tilt>
+        <svg class="feat-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7l3-7z" fill="#7c3aed"/></svg>
+        <h4>UI/UX Design</h4>
+        <p>Flow jelas, hierarchy visual, dan design system reusable.</p>
+      </article>
+      <article class="feat card-tilt" data-tilt>
+        <svg class="feat-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3h18v18H3V3z" fill="#06b6d4"/></svg>
+        <h4>Frontend Dev</h4>
+        <p>HTML semantik, CSS modern, dan optimasi performa.</p>
+      </article>
+      <article class="feat card-tilt" data-tilt>
+        <svg class="feat-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 100 20 10 10 0 000-20z" fill="#f59e0b"/></svg>
+        <h4>Motion Design</h4>
+        <p>Animasi ringan yang tingkatkan kegunaan tanpa mengorbankan performa.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="work" class="section invert">
+  <div class="wrap">
+    <h2 class="section-title reveal">Karya Pilihan</h2>
+    <div class="work-grid">
+      <article class="work-item card-tilt reveal" data-tilt data-src="assets/project1.jpg" data-title="Project One — Landing">
+        <figure>
+          <img src="assets/project1.jpg" alt="Project One" loading="lazy" />
+          <figcaption>
+            <h3>Project One</h3>
+            <p>Landing page interaktif & conversion-oriented</p>
+          </figcaption>
+        </figure>
+      </article>
+      <article class="work-item card-tilt reveal" data-tilt data-src="assets/project2.jpg" data-title="Project Two — Dashboard">
+        <figure>
+          <img src="assets/project2.jpg" alt="Project Two" loading="lazy" />
+          <figcaption>
+            <h3>Project Two</h3>
+            <p>Dashboard analitik real-time</p>
+          </figcaption>
+        </figure>
+      </article>
+      <article class="work-item card-tilt reveal" data-tilt data-src="assets/project3.jpg" data-title="Project Three — E-commerce">
+        <figure>
+          <img src="assets/project3.jpg" alt="Project Three" loading="lazy" />
+          <figcaption>
+            <h3>Project Three</h3>
+            <p>Experience commerce & checkout optimized</p>
+          </figcaption>
+        </figure>
+      </article>
+      <article class="work-item card-tilt reveal" data-tilt data-src="assets/project4.jpg" data-title="Project Four — Branding">
+        <figure>
+          <img src="assets/project4.jpg" alt="Project Four" loading="lazy" />
+          <figcaption>
+            <h3>Project Four</h3>
+            <p>Brand identity & system</p>
+          </figcaption>
+        </figure>
+      </article>
+    </div>
+    <div class="work-actions reveal">
+      <a href="#contact" class="btn btn-primary">Diskusikan Proyek</a>
+      <button id="showAll" class="btn btn-outline">Lihat Semua Karya</button>
+    </div>
+  </div>
+</section>
+
+<div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+  <div class="lightbox-inner">
+    <button class="lightbox-close" aria-label="Tutup">✕</button>
+    <img id="lb-img" src="" alt="" />
+    <h3 id="lb-title"></h3>
+  </div>
+</div>
+
+<section id="contact" class="section">
+  <div class="wrap contact-grid">
+    <div class="contact-info reveal">
+      <h2>Hubungi Saya</h2>
+      <p class="muted">Siap bekerja sama? Isi form atau hubungi langsung via email/telepon.</p>
+      <ul class="contact-meta">
+        <li><strong>Email:</strong> hello@abunk.example</li>
+        <li><strong>Telp:</strong> +62 8xx-xxxx-xxxx</li>
+        <li><strong>Lokasi:</strong> Makassar, Indonesia</li>
+      </ul>
+    </div>
+    <form id="contactForm" class="contact-form reveal" autocomplete="off" novalidate>
+      <div class="row">
+        <input name="name" type="text" placeholder="Nama lengkap *" required />
+        <input name="email" type="email" placeholder="Email *" required />
+      </div>
+      <input name="subject" type="text" placeholder="Subject" />
+      <textarea name="message" rows="6" placeholder="Pesan / brief singkat *" required></textarea>
+      <div class="form-foot">
+        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+        <div class="form-status" aria-live="polite"></div>
+      </div>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <p>© <span id="yr"></span> Abunk Art · Crafted with care</p>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
